@@ -895,6 +895,7 @@ form button{
 		cursor : pointer;
 		transition : 0.3s;
 	}
+<<<<<<< HEAD
 	
 	div.nise{
 		width : 80%;
@@ -902,3 +903,6 @@ form button{
 	}
 }
 
+=======
+}
+>>>>>>> c7649e7cffe59618f31e01e3e79dbdc6ad8e816a
