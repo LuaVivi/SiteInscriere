@@ -14,13 +14,15 @@
 	</head>
 	
 	<body>
+	
+	<script>
+			if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+				document.body.classList.add("dark-mode");
+			}
+		</script>
+	
 		<div id = "acop">
-			<div style = "background-color : #fff2e5;
-			width : 78%;
-			height : auto;
-			margin-top : 50px;
-			margin-left: 11%;
-			border-radius : 30px;"><br>
+			<div class = "overlay"><br>
 			<h3> Datele vor fi trimise în câteva momente </h3>
 			<p> Vă rugăm să aveți răbdare, formularul dvs. este în proces de trimitere... </p>
 			
@@ -30,8 +32,9 @@
 			</div>
 		</div>
 		
-		<div class = "baracaut"> 
-		</div>
+		
+		<p id = "nlbutton">  </p>
+		<div class = "baracaut">  </div>
 		
 		<div class = "box"><br>
 			<h2 style = "margin-bottom : 1px; text-align : center;"> Formular Înscriere >>
@@ -178,6 +181,14 @@
 			}
 		});
 		</script>
+		
+		<script>
+			document.getElementById("nlbutton").addEventListener("click", function() {
+				document.body.classList.toggle("dark-mode");
+				
+			});
+		</script>
+		
 	</body>
 	
 	<footer>
