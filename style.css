@@ -1,24 +1,13 @@
 /* Presetari de baza */
 
 body{
-	margin : 0;
 	padding : 0;
 	border : 0;
-	background-image: url("backgroundimage.png");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-color : #FFDA7C;
+	display : block; 
+	background-color : #fff7e6;
+	margin: 0;
 }
 		
-h1{
-	font-size :18px;
-	color : #004d00;
-	font-family : Sans Serif Collection;
-	margin : auto;
-	margin-left: 0px;
-	font-weight: normal;
-	word-spacing: 7px;
-}
 
 h2{
 	display: inline-block;
@@ -27,8 +16,8 @@ h2{
 	text-align : left;
 	margin-top: 13px;
 	margin-bottom : 0px;
-	font-size :40px;
-	color : #004d00;
+	font-size :30px;
+	color : #456d54;
 	font-family : 'Chelsea Market';
 	font-weight: bold;
 	letter-spacing: 3px;	
@@ -40,7 +29,7 @@ h3{
 	text-align : center;
 	word-spacing: 5px;
 	font-size :30px;
-	color : #004d00;
+	color : #003300;
 	font-family : 'Roboto Serif';
 	font-weight: bolder;
 	letter-spacing: 2px;
@@ -52,7 +41,7 @@ a{
 	text-align : center;
 	word-spacing: 5px;
 	font-size :18px;
-	color : #002717;
+	color : #003300;
 	text-decoration : none;
 	font-family : Sans Serif Collection;
 	font-weight: none;
@@ -60,11 +49,11 @@ a{
 }
 
 p{
-	color : #002717;
+	color : #003300;
 	text-indent: 20px;
 	line-height: 1.9;
 	word-spacing: 4px;
-	font-size : 20px;
+	font-size : 19px;
 	font-family : Sans Serif Collection;
 	font-weight: normal;
 	margin-left: 30px;
@@ -80,110 +69,59 @@ video{
 	border-radius: 22px;
 }
 
-ul{
-	background-image: linear-gradient(#FFEEB0, #ffffb3);
-	text-indent: 40px;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	text-decoration : none; 
-}
-
-iframe {
-    width: 80%;
-    margin: auto;
-    display: block;
-    border-radius: 22px;
-	height: 500px;
-}
-
 footer{
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-start;
 	flex-wrap: wrap;
 	border-radius : 50px 50px 0px 0px;
-	margin-top: 0px;
-	background-color : #002717;
+	background-color : #235234;
 	text-align: center;
-	box-shadow : 0px -1px 100px 0px #c8ca44;
+	width : 100%;
 }
 
 p.fo{
 	font-size : 14px;
-	color : #FFF5D2;
+	color : #fff7e6;
 	margin-left : 65px;
 }
 
 /* Modele clase div */
+		
+div.nise{
+	display : inline-block;
+	background: linear-gradient(109deg, #ffffe5 8%, #ffd9b2 89%, #ffcc99 69%);
+	width : 200px;
+	padding : 2%;
+	border-radius : 50px;
+	margin : auto;
+	margin-bottom : 2%;
+	transition : 0.3s;
+}		
 		
 div.baracaut{
 	display: inline-block;
 	width : 70%;
 	padding-left : 5%;
 	padding-right : 5%;
-	background-color : #FFEEB0;
+	background-color : #456d54;
 	margin: auto;
 	border-radius : 100px;
-	box-shadow : 10px 5px 100px 5px #DEB134;
 	display : flex;
-	height : 40px;
+	height : 10px;
 	margin-top: 40px;
-	position: sticky;
 	top : 0;
 	z-index : 10;
 }
 
 div.box{
-	background-color : #FFEEB0;
-	border-radius : 22px;
 	margin : auto;
-	margin-top : 24px;
+	margin-top : 18px;
 	height : auto; 
 	width : 75%;
 	text-align: center;
-	column-gap: 40px;
 	display: flow-root;
 	margin-bottom: 0px;
-}
-
-div.inform{
-	color : #004d00;
-	background-color : #FFCA43;
-	border-radius : 84px;
-	height : auto; 
-	width : 45%;
-	margin-bottom: 30px;
-	font-family : Sans Serif Collection;
-	overflow: hidden;
-	transition: max-height 0.2s ease-out;
-	box-shadow : 0px 0px 5px 0px #c8ca44;
-	transition : 0.3s;
-}
-
-div.inform p{
-	width: 90%;
-	margin-top : 10px;
-}
-
-div.ivar{
-	margin : auto;
-	color : #002717;
-	background-color : #FFF4B3;
-	border-color: #515f21;
-	border-radius : 80px 80px 10px 10px;
-	padding: 2%;
-	padding-left : 10%;
-	padding-right : 10%;
-	margin-top : 5px;
-	margin-bottom : 20px;
-	width: 70%; 
-	height : auto;
-	transition: 0.3s;
-	border-style: solid;
-	border-width: 0px;
-	display: inline-block;
 }
 
 div.str{
@@ -196,56 +134,18 @@ div.str{
 	text-align: center;
 }
 
-div.elev{
-	display: inline-block;
-	background-color : #FFC75E;
-	border-radius : 22px;
-	height : 100px; 
-	width : 30%;
-	margin-bottom : 10px;
-	text-align: center;
-	transition : 0.3s;
-}
-
-div.distractie{
-	display: inline-block;
-	background-color : #FFC75E;
-	border-radius : 22px;
-	height : auto; 
-	margin-top : 10px;
-	margin-bottom : 10px;
-	text-align: center;
-	padding : 5%;
-	padding-left : 10%;
-	padding-right : 10%; 
-	transition : 0.3s;
-}
-
 div.linkt{
 	margin : auto;
 	display: inline-block;
-	background-color : #FFF5D2;
+	background-color : #fff7e6;
 	cursor : pointer;
-	border-radius : 22px;
+	border-radius : 50px;
 	height : auto; 
 	margin-bottom : 10px;
 	margin-top : 10px;
 	padding : 10px;
 	margin-left : 20px;
 	margin-right : 20px;
-	transition : 0.3s;
-}
-
-div.nise{
-	width : 65%;
-	background-color : #ffffb3; 
-	margin : auto; 
-	border-radius : 80px; 
-	padding : 5%;
-	margin-top : 60px; 
-	margin-bottom : 40px; 
-	border-top : 1.5px solid #DEB134;  
-	border-bottom: 1.5px solid #DEB134;
 	transition : 0.3s;
 }
 
@@ -259,9 +159,9 @@ h2.footer{
 	display : block;
 	float : left;
 	margin-left : 20%;
-	font-size : 12px;
+	font-size : 14px;
 	font-family : Sans Serif Collection;
-	color: #FFEEB0;
+	color: #fff7e6;
 }
 
 
@@ -295,118 +195,15 @@ div.ptitlu{
 	transition : 0.3s;
 }
 
-
-/* Modele clase buton */
-
-#home{
-	box-shadow : 5px 2px 50px 0px #c8ca44;
-	background-color : #69E733;
-	display: block;
-	color : #394d00;
-	font-size :50px;
-	position: fixed;
-	height : 25%;
-	border-radius : 30px 40px 30px 0px;
-	margin-left : 0px; 
-	transition: 0.3s;
-	top : 10%;
-	margin-bottom: 10px;
-	border-width: 0px;
-	text-decoration: none;
-	z-index : 10;
-	cursor : pointer;
-}
-
-.OFPT{
-	box-shadow : 5px 2px 50px 0px #c8ca44;
-	background-color : #69E733;
-	display: block;
-	color : #394d00;
-	font-size :50px;
-	position: fixed;
-	height : 15%;
-	border-radius : 30px 40px 30px 0px;
-	margin-left : 0px; 
-	transition: 0.3s;
-	margin-top : 12%;
-	border-width: 0px;
-	text-decoration: none;
-	z-index : 10;
-	cursor : pointer;
-}
-
 /* Modele clase a */
-	
-#ilink{
-	font-size : 20px;
-	color : #002717;
-	font-family : 'Chelsea Market';
-	box-shadow : 10px 10px 100px 10px #DEB134;
-	padding : 0.8%;
-	padding-left : 5%;
-	padding-right : 5%;
-	background-color : #69E733;
-	border-radius : 80px;
-	height : auto;
-	margin : auto;
-	margin-right: 10px;
-	transition: 0.3s;
-	border-style: solid;
-	border-width: 0px;
-	text-decoration: none;
-	display: inline;
-	cursor : pointer;
-	text-transform : uppercase;
-}
-
-a.acces{
-	word-spacing: 5px;
-	margin-top: 13px;
-	font-size :19px;
-	color : #004d00;
-	font-family : Sans Serif Collection;
-	font-weight: bold;
-	text-decoration: none;
-	background-color : #FFC47C; 
-	border-radius : 80px;
-	padding : 0.5%;
-	padding-left : 2%;
-	padding-right : 2%;
-	transition : 0.3s;
-}
-
-a.ull{
-	display: inline;
-	letter-spacing : 1px;
-	word-spacing: 5px;
-	margin-top: 13px;
-	margin-left : 10px;
-	font-size :20px;
-	color : #004d00;
-	text-align : left;
-	font-family : 'Roboto Serif';
-	text-decoration: none;
-	font-weight : bolder;
-}
-
-a.sursa{
-	word-spacing: 5px;
-	margin-right : 10px;
-	margin : auto;
-	font-size :15px;
-	color : #002717;
-	text-align : left;
-	font-family : Sans Serif Collection;
-	text-decoration: none;
-}
-
 a.fot{
 	text-decoration : none;
 	font-size : 13px;
-	color : #FFF5D2;
+	color : #ffe6cc;
+	margin-left : 15px;
+	text-align : left;
 	display : block;
 	margin-left : 25%;
-	text-align : left;
 }
 
 #bulina{
@@ -420,14 +217,6 @@ a.fot{
 
 /* Modele clase imagini */
 		
-img.logo{
-	height : 140%;
-	margin-right: -9%;
-	margin-top: -0.7%;
-	border-radius : 1000px;
-	box-shadow : 10px 5px 80px 5px #ECD792;
-}
-
 img.icon{
 	width : 70%;
 	height : auto;
@@ -448,65 +237,24 @@ img.cincia:hover{
 }
 
 /* Modele animatii */
-	
-div.elev:hover{
-	background-color : #FFB65D;
-	padding : 0.2%;
+
+div.nise:hover{
+	padding : 2.1%;
+	background: linear-gradient(109deg, #ffffe5 8%, #ffd9b2 80%, #ffb870 53%);
 }
 
-div.distractie:hover{
-	background-color : #FFB65D;
-	padding : 8%;
-}
-	
-#ilink:hover{
-	background-color : #A4EE3D;
-	border-color: #A4EE3D;
-	padding-left : 6%; 
-	padding-right : 6%; 
-}
-
-#home:hover{
-	background-color : #daee3f;
-	font-size:53px;
-}
-
-.OFPT:hover{
-	background-color : #daee3f;
-	font-size:53px;
-}
-
-a.acces:hover{
-	word-spacing: 7px;
-	background-color : #ff9966;
-	padding : 1%;
-	padding-left : 2.3%;
-	padding-right : 2.3%;
-}
-
-.linkt:hover{
-	background-color : #FFC75E;
-	padding-left :  3.5% ;
-	padding-right :  3.5% ;
+div.linkt:hover{
+	background-color : #ffe6cc;
+	padding : 12px;
 }
 
 form button:hover{
-	font-size : 30px; 
-	background-color: #ccff66;
+	font-size : 28px; 
+	background-color: #70cd70;
 	transition: 0.3s; 
 }
 
-div.nise:hover{
-	padding-left : 6%;
-	padding-right : 6%;
-}
-
-div.inform:hover{
-	padding : 0.5%;
-}
-
 input:hover , textarea:hover, label:hover{
-	padding-left : 2%;
 	padding-right : 2%;
 }
 
@@ -525,25 +273,26 @@ form input, select, textarea{
 	margin-top : 0px;
 	margin-bottom : -10px;
 	font-size : 14px; 
-	color: #004d00;
+	color: #003300;
 	margin-bottom : 10px;
-	font-family : Sans Serif Collection; 
-	box-shadow : 1px 1px 7px 1px #DEB134;	
+	font-family : Sans Serif Collection;
+	border-top: 1px solid #ffcc99;
+	border-bottom: 5px solid #ffcc99;
 	resize: none;
 	transition : 0.3s;
 }
 
 form textarea{
-	height : 300px;
+	height : auto;
 }
 
 form label{
 	display : inline-block;
 	border: none;
-	padding : 1%; 
+	padding : 0.5%; 
 	border-radius : 20px 0px 0px 20px;
 	font-size : 17px; 
-	color: #004d00;
+	color: #003300;
 	font-family : Sans Serif Collection; 
 	transition : 0.3s; 
 }
@@ -555,13 +304,12 @@ form button{
 	margin-top : 10px;
 	margin-bottom : 10px;
 	font-size : 26px; 
-	color: #004d00;
-	background-color: #69E733;
+	color: #003300;
+	background-color: #67cb67;
 	font-family : Sans Serif Collection; 
 	transition: 0.3s; 
 	padding-left: 4%;
 	padding-right: 4%;
-	box-shadow : 10px 5px 50px 5px #c8ca44;
 }
 
 /* ceva */
@@ -573,10 +321,8 @@ form button{
 
 .container {
   display: block;
-  margin-top : -10px;
   position: relative;
   padding-left: 35px;
-  margin-bottom: 12px;
   cursor: pointer;
   font-size: 17px;
   -webkit-user-select: none;
@@ -601,20 +347,20 @@ form button{
   left: 38%;
   height: 20px;
   width: 20px;
-  background-color: #ffffb3;
+  background-color: #fff7e6;
   border-radius: 50%;
   transition : .2s ease-in-out;
-  border : 2px solid #ff9900;
+  border : 1px solid #fff7e6;
 }
 
 /* On mouse-over, add a grey background color */
 .container:hover input ~ .checkmark {
-  background-color: #ffe6b3;
+  background-color: #fff7e6;
 }
 
 /* When the radio button is checked, add a blue background */
 .container input:checked ~ .checkmark {
-  background-color: #ff9900;
+  background-color: #fff7e6;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -636,16 +382,16 @@ form button{
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
-	background: #ffd480;
+	background: #fff7e6;
 }
 
 /* profile */
 
 .checkbox{
 	position : relative;
-	font-size : 17px;
-	display : block;
-	width : 300px;
+	font-size : 16px;
+	display : inline-block;
+	width : 220px;
 	margin : auto;
 	cursor : pointer;
 }
@@ -656,6 +402,8 @@ form button{
 	width : 0;
 	cursor : pointer;
 }
+
+
 
 .check{
 	position : absolute;
@@ -670,7 +418,7 @@ form button{
 
 .checkbox:hover input ~ .check{
 	border-color : transparent;
-	background-color : #ffd480;
+	background-color : #ffcc99;
 }
 
 .checkbox input:checked ~ .check{
@@ -683,21 +431,21 @@ form button{
 	position : absolute;
 	width : 5px;
 	height : 12px;
-	border : solid #ffffb3;
+	border : solid #fff7e6;
 	border-width : 0  3px 3px 0;
 	transform : rotate(45deg);
 	right : 6px;
 }
 
 .checkbox input:focus ~ .check{
-	box-shadow : 0 0 0 4px #ffd480;
+	box-shadow : 0 0 0 4px #ffe6cc;
 }
 
 /* validare formular */
 
 #acop{
 	z-index : 1000;
-	background-color: rgb(102, 75, 0, 0.5);
+	background-color: rgb(48, 38, 29, 0.7);
 	position : fixed;
 	top : 0;
 	left : 0;
@@ -715,7 +463,7 @@ form button{
 		padding-left : 2%;
 		padding-right : 1%;
 		width : 92%;
-		height : 50px;
+		height : 5px;
 		margin : auto;
 		margin-top: 30px;
 		border-radius : 10px;
@@ -724,7 +472,7 @@ form button{
 	div.box{
 		width : 85%;
 		margin : auto;
-		margin-top : 20px;
+		margin-top : 15px;
 		height : auto;
 		border-radius: 20px;
 	}
@@ -736,52 +484,26 @@ form button{
 	h2{
 		display: inline-block;
 		margin-top: 20px;
-		margin-left : 20px;
+		margin-left : 10px;
 	}
 	
 	p{
 		width : 90%;
+		text-indent: 12px;
+		margin : auto;
 	}
 	
 	footer{
-		background-color : #002717;
-		border-radius : 50px 50px 0px 0px;
+		border-radius : 100px 100px 0px 0px;
 	}
 	
 	#type{
 		border-radius : 30px;
 	}
 	
-	#ilink{ 
-		padding:2%;
-		font-size :17px;
-	}
-	
-	#ilink:hover{
-		background-color : #A4EE3D;
-		border-color: #A4EE3D;
-		padding:2.5%;
-	}
-	
-	img.logo{
-		margin-right : 0px;
-		display : none;
-	}
-	
-	div.elev{
-		margin : auto;
-		margin-bottom: 20px; 
-		width : 90%;
-	}
 	
 	div.str{
 		column-count: 1;
-	}
-	
-	div.distractie{
-		margin : auto;
-		margin-bottom : 20px;
-		width : 70%;
 	}
 	
 	.checkmark {
@@ -789,34 +511,21 @@ form button{
 	  left: 25%;
 	}
 	
-	#home{
-		box-shadow : 8px 5px 70px 5px #c8ca44;
-		font-size :30px;
-		height : 10%;
-		top : 15%;
-	}
-	
-	#home:hover{
-		font-size :35px;
-	}
-	
-	.OFPT{
-		box-shadow : 8px 5px 70px 5px #c8ca44;
-		font-size :30px;
-		height : 10%;
-		top : 20%;
-	}
-	
-	.OFPT:hover{
-		font-size :35px;
-	}
-	
 	form input, select{
 		padding : 3%;
 		padding-right: 0.2%;
 		border-radius : 10px;
 		margin-bottom : 10px;
-		font-size : 18px; 
+		width : 90%;
+		transition : 0.3s;
+	}
+	
+	form textarea{
+		padding : 3%;
+		padding-right: 0.2%;
+		border-radius : 10px;
+		margin-bottom : 10px;
+		width : 90%;
 		transition : 0.3s;
 	}
 
@@ -831,48 +540,13 @@ form button{
 		transition : 0.3s;
 	}
 	
-	div.inform{
-		height : auto; 
-		width : 90%;
-		border-radius : 60px;
-		margin-bottom: 30px;
-		font-family : Sans Serif Collection;
-		overflow: hidden;
-		transition : 0.3s;
-	}
-
-	div.ivar{
-		padding : 1%;
-		margin : auto;
-		padding-left : 6%;
-		padding-right : 6%;
-		border-radius : 80px 80px 20px 20px;
-		margin-top : 20px;
-		width: 70%; 
-		border-style: solid;
-		border-width: 0px;
-		display: block;
-	}
-	
-	div.inform p{
-		margin-top : 20px;
-		width : 85%;
-	}
-	
 	form button{
 		border: none;
 		padding : 3%;
 		border-radius : 20px;
-		margin-top : 10px;
-		margin-bottom : 10px;
-		color: #004d00;
-		background-color: #69E733;
-		font-family : Sans Serif Collection; 
 		transition: 0.3s; 
 		padding-left: 4%;
 		padding-right: 4%;
-		font-weight : bold;
-		box-shadow : 10px 5px 50px 5px #c8ca44;
 	}
 	
 	ul{
@@ -888,26 +562,182 @@ form button{
 		margin-left : 10%;
 	}
 	
-	div.projn{
-		width : 90%;
+	div.linkt{
+		width : 70%;
 	}
 	
-	div.ptitlu{
-		padding : 7%;
-		width : 60%;
+	a.fot{
+		margin : auto;
+		width: 100%;
 		display : inline-block;
-		margin-top : -20%;
-		margin-left : -40%;
-		background-color : #FFC47C;
-		border-radius : 84px;
-		z-index : 4;
-		cursor : pointer;
-		transition : 0.3s;
-	}
-	
-	div.nise{
-		width : 80%;
-		border-radius : 50px;
+		text-align : center;
 	}
 }
 
+/*Dark MODE*/
+
+@media (prefers-color-scheme: dark) {
+    body{
+		background-color : #1c1c17;
+	}
+			
+
+	h2{
+		color : #92b992;	
+	}
+
+	h3{
+		color : #afdeaf;
+	}
+
+	a{
+		color : #afdeaf;
+	}
+
+	p{
+		color : #afdeaf;
+	}
+	
+	footer{
+		background-color : #212c21;
+	}
+
+	p.fo{
+		color : #afdeaf;
+	}
+
+	/* Modele clase div */
+			
+	div.nise{
+		background: linear-gradient(109deg, #1c1c17 8%, #42423e 89%, #dbaf57 69%);
+	}	
+	
+	div.baracaut{
+		background-color : #9dc79d;
+	}
+
+	div.linkt{
+		background-color : #3b453b;
+	}
+
+	h2.footer{
+		color: #fff7e6;
+	}
+
+	div.ptitlu{
+		background-color : #FFC47C;
+	}
+
+	/* Modele clase a */
+	a.fot{
+		color : #afdeaf;
+	}
+	
+	form input, select, textarea{
+		color: #afdeaf;
+	}
+	
+	form input, textarea{
+		background-color: #0e0e0c;
+			
+		border-top: 1px solid #edbd5f;
+		border-bottom: 5px solid #edbd5f;
+	}
+	
+	form label{
+		color: #afdeaf; 
+	}
+
+	/* Create a custom radio button */
+	.checkmark {
+	  background-color: #fff7e6;
+	  border : 1px solid #fff7e6;
+	}
+
+	/* On mouse-over, add a grey background color */
+	.container:hover input ~ .checkmark {
+	  background-color: #fff7e6;
+	}
+
+	/* When the radio button is checked, add a blue background */
+	.container input:checked ~ .checkmark {
+	  background-color: #fff7e6;
+	}
+
+	/* Style the indicator (dot/circle) */
+	.container .checkmark:after {
+		background: #fff7e6;
+	}
+
+	/* profile */
+
+	.checkbox{
+		position : relative;
+		font-size : 16px;
+		display : inline-block;
+		width : 220px;
+		margin : auto;
+		cursor : pointer;
+	}
+
+	.checkbox input{
+		position : absolute;
+		height : 0;
+		width : 0;
+		cursor : pointer;
+	}
+
+	.check{
+		position : absolute;
+		height : 20px;
+		width : 20px;
+		border : 2px solid #ff9900;
+		border-radius : 50%;
+		left : 0;
+		top : 30%;
+		transition : .2s ease-in-out;
+	}
+
+	.checkbox:hover input ~ .check{
+		border-color : transparent;
+		background-color : #dfb286;
+	}
+
+	.checkbox input:checked ~ .check{
+		background-color : #ff9900;
+		border-color : transparent;
+	}
+
+	.check::after{
+		content : "";
+		position : absolute;
+		width : 5px;
+		height : 12px;
+		border : solid #1c1c17;
+		border-width : 0  3px 3px 0;
+		transform : rotate(45deg);
+		right : 6px;
+	}
+
+	.checkbox input:focus ~ .check{
+		box-shadow : 0 0 0 4px #504030;
+	}
+	
+	
+	div.nise:hover{
+		padding : 2.1%;
+		background: linear-gradient(109deg, #1c1c17 8%, #42423e 80%, #f3a953 56%);
+	}
+
+	div.linkt:hover{
+		background-color : #555e55;
+	}
+
+	form button:hover{ 
+		background-color: #70cd70;
+	}
+
+	div.ptitlu:hover{
+		background-color : #FFB65D;
+	}
+}
